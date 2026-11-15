@@ -1,0 +1,27 @@
+JUnit version 4.13.2
+.E.E.E
+Time: 0.508
+There were 3 failures:
+1) lostParkingSignalEndsRestAndRaisesSeat(com.pitstop.shimpyo.core.SixthReviewTest)
+java.lang.AssertionError: expected:<MONITORING> but was:<RESTING>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.pitstop.shimpyo.core.SixthReviewTest.lostParkingSignalEndsRestAndRaisesSeat(SixthReviewTest.kt:52)
+2) parkingLossWhileWakingClosesWindow(com.pitstop.shimpyo.core.SixthReviewTest)
+java.lang.AssertionError: expected:<MONITORING> but was:<WAKING>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.pitstop.shimpyo.core.SixthReviewTest.parkingLossWhileWakingClosesWindow(SixthReviewTest.kt:77)
+3) departureWhileReclineReplyIsPendingStillRaisesSeat(com.pitstop.shimpyo.core.SixthReviewTest)
+java.lang.AssertionError: 완료 응답을 기다리는 중에도 원위치를 요청한다
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.pitstop.shimpyo.core.SixthReviewTest.departureWhileReclineReplyIsPendingStillRaisesSeat(SixthReviewTest.kt:63)
+
+FAILURES!!!
+Tests run: 3,  Failures: 3
+

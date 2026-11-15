@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.ReviewFixesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:41" hostname="e6e68af53970" time="0.014">
+  <properties/>
+  <testcase name="prefersShelterOnTheRoadWeAreOn" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.002"/>
+  <testcase name="vehicleTripTimeDetectsSecondsAndIgnitionReset" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.0"/>
+  <testcase name="noAutoStartInDemoConfig" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.003"/>
+  <testcase name="departLineDoesNotPromiseADestination" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.0"/>
+  <testcase name="thinkingQuestionsUseTheirOwnBaseline" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.0"/>
+  <testcase name="offerSaysStraightLineDistance" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.007"/>
+  <testcase name="offerWithoutMicrophoneIsNotADecline" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.001"/>
+  <testcase name="tripStartsByItselfWhenTheCarLeavesPark" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.001"/>
+  <testcase name="liveFallbackVehicleDoesNotPretend" classname="com.pitstop.shimpyo.core.ReviewFixesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

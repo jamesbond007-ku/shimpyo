@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.UnavailableNaviTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:41" hostname="e6e68af53970" time="0.002">
+  <properties/>
+  <testcase name="demoNavigationStillWorks" classname="com.pitstop.shimpyo.core.UnavailableNaviTest" time="0.001"/>
+  <testcase name="disconnectedLiveFallbackCannotPretendToNavigate" classname="com.pitstop.shimpyo.core.UnavailableNaviTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

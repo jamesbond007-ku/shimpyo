@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:42" hostname="e6e68af53970" time="0.339">
+  <properties/>
+  <testcase name="moveZeroIsStopNotTheFirstConstant" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.036"/>
+  <testcase name="varargAreaIsBuiltWithDriverSeatNotEmpty" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.003"/>
+  <testcase name="getAndSetBuildDriverAreaAndRouteCallbacks" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.019"/>
+  <testcase name="findsShortestMatchingSetterAndSkipsExcluded" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.0"/>
+  <testcase name="capabilityAreaIsUsedForZonedProperties" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.008"/>
+  <testcase name="readOnlyCapabilityIsNotWritable" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.266"/>
+  <testcase name="parsesCapabilityBoundsForDriverArea" classname="com.pitstop.shimpyo.platform.vehicle.ReflectiveVehicleCallerTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

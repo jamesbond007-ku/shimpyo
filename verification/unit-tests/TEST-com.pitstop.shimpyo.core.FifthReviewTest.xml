@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.FifthReviewTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:41" hostname="e6e68af53970" time="0.014">
+  <properties/>
+  <testcase name="arrivalDuringParkQuestionDoesNotFreeze" classname="com.pitstop.shimpyo.core.FifthReviewTest" time="0.006"/>
+  <testcase name="demoSpeedDoesNotTreatShortParkAsLong" classname="com.pitstop.shimpyo.core.FifthReviewTest" time="0.004"/>
+  <testcase name="vehicleTimeTakesOverWithoutJump" classname="com.pitstop.shimpyo.core.FifthReviewTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

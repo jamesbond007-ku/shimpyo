@@ -1,0 +1,2 @@
+767ccf7b6631ea6d76354bc05d4438507d6fd4b8af02a7486d2d5777294f2adb  apk/shimpyo-0.2.1-review6-demo.apk
+db349bf9de36b37aac32a82ffde009f7c9c8724475c2de81f5e1385428ca3c3d  apk/shimpyo-0.2.1-review6-live.apk

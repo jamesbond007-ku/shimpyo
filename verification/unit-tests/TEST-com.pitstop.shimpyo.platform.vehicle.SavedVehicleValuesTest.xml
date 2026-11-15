@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:43" hostname="e6e68af53970" time="0.008">
+  <properties/>
+  <testcase name="missingReplyDoesNotDiscardOriginal" classname="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" time="0.003"/>
+  <testcase name="failedWriteCanRetryTheSameOriginalAndArea" classname="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" time="0.002"/>
+  <testcase name="unknownWindowPositionStillUsesExplicitCloseFallback" classname="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" time="0.0"/>
+  <testcase name="lateReplyCannotEraseNextRestOriginal" classname="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" time="0.002"/>
+  <testcase name="unknownOriginalIsNotReportedAsRestored" classname="com.pitstop.shimpyo.platform.vehicle.SavedVehicleValuesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

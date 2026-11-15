@@ -1,0 +1,140 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preLiveDebugBuild UP-TO-DATE
+> Task :app:generateLiveDebugBuildConfig UP-TO-DATE
+> Task :app:checkLiveDebugAarMetadata UP-TO-DATE
+> Task :app:generateLiveDebugResValues UP-TO-DATE
+> Task :app:mapLiveDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateLiveDebugResources UP-TO-DATE
+> Task :app:mergeLiveDebugResources UP-TO-DATE
+> Task :app:packageLiveDebugResources UP-TO-DATE
+> Task :app:parseLiveDebugLocalResources UP-TO-DATE
+> Task :app:createLiveDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksLiveDebug UP-TO-DATE
+> Task :app:processLiveDebugMainManifest UP-TO-DATE
+> Task :app:processLiveDebugManifest UP-TO-DATE
+> Task :app:processLiveDebugManifestForPackage UP-TO-DATE
+> Task :app:processLiveDebugResources UP-TO-DATE
+> Task :app:javaPreCompileLiveDebug UP-TO-DATE
+> Task :app:preLiveDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileLiveDebugUnitTest UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:preLiveReleaseBuild UP-TO-DATE
+> Task :app:generateLiveReleaseBuildConfig UP-TO-DATE
+> Task :app:checkLiveReleaseAarMetadata UP-TO-DATE
+> Task :app:generateLiveReleaseResValues UP-TO-DATE
+> Task :app:mapLiveReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateLiveReleaseResources UP-TO-DATE
+> Task :app:mergeLiveReleaseResources UP-TO-DATE
+> Task :app:packageLiveReleaseResources UP-TO-DATE
+> Task :app:parseLiveReleaseLocalResources UP-TO-DATE
+> Task :app:createLiveReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksLiveRelease UP-TO-DATE
+> Task :app:processLiveReleaseMainManifest UP-TO-DATE
+> Task :app:processLiveReleaseManifest UP-TO-DATE
+> Task :app:processLiveReleaseManifestForPackage UP-TO-DATE
+> Task :app:processLiveReleaseResources UP-TO-DATE
+> Task :app:compileLiveReleaseKotlin
+> Task :app:javaPreCompileLiveRelease UP-TO-DATE
+> Task :app:compileLiveDebugKotlin
+> Task :app:compileLiveReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileLiveDebugJavaWithJavac UP-TO-DATE
+> Task :app:bundleLiveDebugClassesToRuntimeJar
+> Task :app:bundleLiveDebugClassesToCompileJar
+> Task :app:processLiveDebugJavaRes UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:generateLiveReleaseLintVitalReportModel
+> Task :app:compileLiveDebugUnitTestKotlin
+> Task :app:compileLiveDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processLiveDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintVitalAnalyzeLiveRelease
+> Task :app:testLiveDebugUnitTest
+> Task :app:lintVitalReportLiveRelease UP-TO-DATE
+> Task :app:lintVitalLiveRelease
+> Task :app:mergeLiveReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeLiveReleaseNativeLibs UP-TO-DATE
+> Task :app:stripLiveReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractLiveReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeLiveReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkLiveReleaseDuplicateClasses UP-TO-DATE
+> Task :app:dexBuilderLiveRelease
+> Task :app:desugarLiveReleaseFileDependencies UP-TO-DATE
+> Task :app:mergeLiveReleaseStartupProfile UP-TO-DATE
+> Task :app:mergeExtDexLiveRelease UP-TO-DATE
+> Task :app:mergeLiveReleaseArtProfile UP-TO-DATE
+> Task :app:mergeLiveReleaseGlobalSynthetics UP-TO-DATE
+> Task :app:mergeLiveReleaseShaders UP-TO-DATE
+> Task :app:compileLiveReleaseShaders NO-SOURCE
+> Task :app:generateLiveReleaseAssets UP-TO-DATE
+> Task :app:mergeLiveReleaseAssets
+> Task :app:compressLiveReleaseAssets
+> Task :app:mergeDexLiveRelease
+> Task :app:extractLiveReleaseVersionControlInfo UP-TO-DATE
+> Task :app:processLiveReleaseJavaRes UP-TO-DATE
+> Task :app:mergeLiveReleaseJavaResource UP-TO-DATE
+> Task :app:optimizeLiveReleaseResources UP-TO-DATE
+> Task :app:collectLiveReleaseDependencies UP-TO-DATE
+> Task :app:sdkLiveReleaseDependencyData UP-TO-DATE
+> Task :app:validateSigningLiveRelease UP-TO-DATE
+> Task :app:writeLiveReleaseAppMetadata UP-TO-DATE
+> Task :app:writeLiveReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:preDemoReleaseBuild UP-TO-DATE
+> Task :app:generateDemoReleaseBuildConfig UP-TO-DATE
+> Task :app:checkDemoReleaseAarMetadata UP-TO-DATE
+> Task :app:generateDemoReleaseResValues UP-TO-DATE
+> Task :app:mapDemoReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateDemoReleaseResources UP-TO-DATE
+> Task :app:mergeDemoReleaseResources UP-TO-DATE
+> Task :app:packageDemoReleaseResources UP-TO-DATE
+> Task :app:parseDemoReleaseLocalResources UP-TO-DATE
+> Task :app:createDemoReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDemoRelease UP-TO-DATE
+> Task :app:processDemoReleaseMainManifest UP-TO-DATE
+> Task :app:processDemoReleaseManifest UP-TO-DATE
+> Task :app:processDemoReleaseManifestForPackage UP-TO-DATE
+> Task :app:processDemoReleaseResources UP-TO-DATE
+> Task :app:compileLiveReleaseArtProfile
+> Task :app:packageLiveRelease
+> Task :app:createLiveReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleLiveRelease
+> Task :app:javaPreCompileDemoRelease UP-TO-DATE
+> Task :app:mergeDemoReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeDemoReleaseNativeLibs UP-TO-DATE
+> Task :app:stripDemoReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractDemoReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeDemoReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDemoReleaseArtProfile UP-TO-DATE
+> Task :app:desugarDemoReleaseFileDependencies UP-TO-DATE
+> Task :app:checkDemoReleaseDuplicateClasses UP-TO-DATE
+> Task :app:mergeDemoReleaseStartupProfile UP-TO-DATE
+> Task :app:mergeExtDexDemoRelease UP-TO-DATE
+> Task :app:mergeDemoReleaseShaders UP-TO-DATE
+> Task :app:compileDemoReleaseShaders NO-SOURCE
+> Task :app:generateDemoReleaseAssets UP-TO-DATE
+> Task :app:mergeDemoReleaseAssets
+> Task :app:compressDemoReleaseAssets
+> Task :app:extractDemoReleaseVersionControlInfo UP-TO-DATE
+> Task :app:optimizeDemoReleaseResources UP-TO-DATE
+> Task :app:collectDemoReleaseDependencies UP-TO-DATE
+> Task :app:sdkDemoReleaseDependencyData UP-TO-DATE
+> Task :app:validateSigningDemoRelease UP-TO-DATE
+> Task :app:writeDemoReleaseAppMetadata UP-TO-DATE
+> Task :app:writeDemoReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:compileDemoReleaseKotlin
+> Task :app:compileDemoReleaseJavaWithJavac UP-TO-DATE
+> Task :app:generateDemoReleaseLintVitalReportModel
+> Task :app:dexBuilderDemoRelease
+> Task :app:mergeDemoReleaseGlobalSynthetics UP-TO-DATE
+> Task :app:mergeDexDemoRelease
+> Task :app:compileDemoReleaseArtProfile
+> Task :app:processDemoReleaseJavaRes UP-TO-DATE
+> Task :app:mergeDemoReleaseJavaResource UP-TO-DATE
+> Task :app:packageDemoRelease
+> Task :app:createDemoReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:lintVitalAnalyzeDemoRelease
+> Task :app:lintVitalReportDemoRelease UP-TO-DATE
+> Task :app:lintVitalDemoRelease
+> Task :app:assembleDemoRelease
+
+BUILD SUCCESSFUL in 1m 37s
+122 actionable tasks: 25 executed, 97 up-to-date

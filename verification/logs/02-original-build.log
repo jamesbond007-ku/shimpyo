@@ -1,0 +1,127 @@
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preLiveReleaseBuild UP-TO-DATE
+> Task :app:generateLiveReleaseBuildConfig
+> Task :app:generateLiveReleaseResValues
+> Task :app:checkLiveReleaseAarMetadata
+> Task :app:mapLiveReleaseSourceSetPaths
+> Task :app:generateLiveReleaseResources
+> Task :app:createLiveReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksLiveRelease
+> Task :app:processLiveReleaseMainManifest
+> Task :app:processLiveReleaseManifest
+> Task :app:processLiveReleaseManifestForPackage
+> Task :app:javaPreCompileLiveRelease
+> Task :app:extractProguardFiles
+> Task :app:mergeLiveReleaseJniLibFolders
+> Task :app:mergeLiveReleaseResources
+> Task :app:packageLiveReleaseResources
+> Task :app:parseLiveReleaseLocalResources
+> Task :app:mergeLiveReleaseNativeLibs
+
+> Task :app:stripLiveReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libjnidispatch.so, libuacore.so.
+
+> Task :app:extractLiveReleaseNativeSymbolTables
+> Task :app:mergeLiveReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkLiveReleaseDuplicateClasses
+> Task :app:desugarLiveReleaseFileDependencies
+> Task :app:mergeLiveReleaseStartupProfile
+> Task :app:processLiveReleaseResources
+> Task :app:mergeExtDexLiveRelease
+> Task :app:mergeLiveReleaseArtProfile
+> Task :app:mergeLiveReleaseShaders
+> Task :app:compileLiveReleaseShaders NO-SOURCE
+> Task :app:generateLiveReleaseAssets UP-TO-DATE
+> Task :app:mergeLiveReleaseAssets
+> Task :app:compressLiveReleaseAssets
+> Task :app:extractLiveReleaseVersionControlInfo
+> Task :app:optimizeLiveReleaseResources
+> Task :app:collectLiveReleaseDependencies
+> Task :app:sdkLiveReleaseDependencyData
+> Task :app:compileLiveReleaseKotlin
+> Task :app:validateSigningLiveRelease
+> Task :app:writeLiveReleaseAppMetadata
+> Task :app:writeLiveReleaseSigningConfigVersions
+> Task :app:preDemoReleaseBuild UP-TO-DATE
+> Task :app:generateDemoReleaseBuildConfig
+> Task :app:checkDemoReleaseAarMetadata
+> Task :app:generateDemoReleaseResValues
+> Task :app:mapDemoReleaseSourceSetPaths
+> Task :app:generateDemoReleaseResources
+> Task :app:mergeDemoReleaseResources
+> Task :app:packageDemoReleaseResources
+> Task :app:parseDemoReleaseLocalResources
+> Task :app:createDemoReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDemoRelease
+> Task :app:processDemoReleaseMainManifest
+> Task :app:processDemoReleaseManifest
+> Task :app:processDemoReleaseManifestForPackage
+> Task :app:processDemoReleaseResources
+
+> Task :app:compileLiveReleaseKotlin
+w: file:///workspace/shimpyo-baseline/app/src/main/java/com/pitstop/shimpyo/platform/vehicle/ReflectiveVehicleCaller.kt:177:57 Java type mismatch: inferred type is 'java.lang.Class<*>?', but 'java.lang.Class<*>' was expected.
+
+> Task :app:compileLiveReleaseJavaWithJavac
+> Task :app:generateLiveReleaseLintVitalReportModel
+> Task :app:compileDemoReleaseKotlin
+w: file:///workspace/shimpyo-baseline/app/src/main/java/com/pitstop/shimpyo/platform/vehicle/ReflectiveVehicleCaller.kt:177:57 Java type mismatch: inferred type is 'java.lang.Class<*>?', but 'java.lang.Class<*>' was expected.
+
+> Task :app:lintVitalAnalyzeLiveRelease
+> Task :app:dexBuilderLiveRelease
+> Task :app:mergeDexLiveRelease
+> Task :app:mergeLiveReleaseGlobalSynthetics
+> Task :app:compileLiveReleaseArtProfile
+> Task :app:processLiveReleaseJavaRes
+> Task :app:mergeLiveReleaseJavaResource
+> Task :app:packageLiveRelease
+> Task :app:createLiveReleaseApkListingFileRedirect
+> Task :app:javaPreCompileDemoRelease
+> Task :app:compileDemoReleaseJavaWithJavac
+> Task :app:generateDemoReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeDemoRelease
+Warning: Unable to initialize metrics, ensure /home/agent/.android is writable, details: /home/agent/.android/analytics.settings (No such file or directory)
+
+> Task :app:lintVitalReportDemoRelease
+> Task :app:lintVitalDemoRelease
+> Task :app:mergeDemoReleaseJniLibFolders
+> Task :app:mergeDemoReleaseNativeLibs
+
+> Task :app:stripDemoReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libjnidispatch.so, libuacore.so.
+
+> Task :app:extractDemoReleaseNativeSymbolTables
+> Task :app:mergeDemoReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDemoReleaseArtProfile
+> Task :app:desugarDemoReleaseFileDependencies
+> Task :app:dexBuilderDemoRelease
+> Task :app:lintVitalReportLiveRelease
+> Task :app:lintVitalLiveRelease
+> Task :app:assembleLiveRelease
+> Task :app:mergeDemoReleaseGlobalSynthetics
+> Task :app:mergeDemoReleaseStartupProfile
+> Task :app:mergeDemoReleaseShaders
+> Task :app:compileDemoReleaseShaders NO-SOURCE
+> Task :app:generateDemoReleaseAssets UP-TO-DATE
+> Task :app:mergeDemoReleaseAssets
+> Task :app:compressDemoReleaseAssets
+> Task :app:extractDemoReleaseVersionControlInfo
+> Task :app:checkDemoReleaseDuplicateClasses
+> Task :app:processDemoReleaseJavaRes
+> Task :app:mergeExtDexDemoRelease
+> Task :app:mergeDemoReleaseJavaResource
+> Task :app:mergeDexDemoRelease
+> Task :app:compileDemoReleaseArtProfile
+> Task :app:collectDemoReleaseDependencies
+> Task :app:sdkDemoReleaseDependencyData
+> Task :app:optimizeDemoReleaseResources
+> Task :app:validateSigningDemoRelease
+> Task :app:writeDemoReleaseAppMetadata
+> Task :app:writeDemoReleaseSigningConfigVersions
+> Task :app:packageDemoRelease
+> Task :app:createDemoReleaseApkListingFileRedirect
+> Task :app:assembleDemoRelease
+
+BUILD SUCCESSFUL in 7m 43s
+98 actionable tasks: 98 executed

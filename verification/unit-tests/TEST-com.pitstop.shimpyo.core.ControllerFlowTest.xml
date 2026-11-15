@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.ControllerFlowTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:05" hostname="e6e68af53970" time="1.078">
+  <properties/>
+  <testcase name="saidYesToRestHereStartsRest" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.655"/>
+  <testcase name="parkingMeansGearPark" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.0"/>
+  <testcase name="parkingAwayFromShelterAsksBeforeReclining" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.038"/>
+  <testcase name="silenceWithoutMicrophoneIsNotCountedAsDrowsiness" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.003"/>
+  <testcase name="restWaitsForParkingAndSeatFallbackSpeaks" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.01"/>
+  <testcase name="withoutShelterDataOpensNaviSearch" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.057"/>
+  <testcase name="kss9DoesNotRepeatOfferAfterDecline" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.034"/>
+  <testcase name="drivingOffDuringRestEndsRestAndResumesMonitoring" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.066"/>
+  <testcase name="napCapsuleWakesWithLightThenVoiceThenSeat" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.04"/>
+  <testcase name="drivingDuringRestRestoresLightAndRaisesSeat" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.046"/>
+  <testcase name="declineThenOfferAgainLater" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.041"/>
+  <testcase name="fullRestCycle" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.016"/>
+  <testcase name="guidanceIsDroppedWhenDriverNeverParks" classname="com.pitstop.shimpyo.core.ControllerFlowTest" time="0.067"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

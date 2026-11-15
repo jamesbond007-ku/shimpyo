@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.TalkGamesTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:41" hostname="e6e68af53970" time="0.042">
+  <properties/>
+  <testcase name="oxQuizGradesBothWays" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="parsesLargeNumbers" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="chosungQuizAcceptsExactAndSameInitials" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="memoryGameRunsThreeSteps" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="deckCyclesAllGamesWithoutImmediateRepeat" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="guguDanChecksAnswersAndLevelsUp" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.035"/>
+  <testcase name="chosungExtraction" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="digitSequences" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="arithmeticAnswersAreComputed" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="reverseDigitsGrowsOnSuccess" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="oxAnswers" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="chosungItemsAreUnambiguousWithinCategory" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <testcase name="nonsenseAcceptsLooseAnswers" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.001"/>
+  <testcase name="deckPrefersFocusGamesWhenWarning" classname="com.pitstop.shimpyo.core.TalkGamesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

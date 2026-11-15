@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:40:41" hostname="e6e68af53970" time="0.181">
+  <properties/>
+  <testcase name="wearableSlightlyShortSleepOnlyLowersTemperature" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.003"/>
+  <testcase name="regionQuizIsUnambiguousOnRealData" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.15"/>
+  <testcase name="withPassengerSleepCheckStaysAndSoloMeansQuiet" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.002"/>
+  <testcase name="restRestoresPrepTemperatureBeforeRestClimate" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="wearableShortSleepStillTriggersEarlyOffer" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="teamModeTakesTurnsAndOnlyDriverAnswersCount" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.002"/>
+  <testcase name="wearableShortSleepPreparesCabinAfterAnnouncing" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.0"/>
+  <testcase name="teamModeWeighsContextUpAndConversationDown" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.0"/>
+  <testcase name="teamPreferenceChangesOnlyWhenParked" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="shortSleepIsCaughtEvenWithPassenger" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.004"/>
+  <testcase name="regionQuizAnswersComeFromData" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.003"/>
+  <testcase name="passengerBoardingDuringSleepCheckDoesNotCutIt" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.002"/>
+  <testcase name="wearableSleepSkipsDepartureQuestions" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.0"/>
+  <testcase name="parsesTeamIntents" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="voiceSwitchTurnsTeamOnWithoutSeatSensor" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="distanceGuessToleratesSmallErrors" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="firstGameIsAVehicleGameWhenLocationIsKnown" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="passengerTouchOnDriverTurnIsAFoul" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.001"/>
+  <testcase name="sleepPrepLevelsFollowSleepAndWakeTime" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.0"/>
+  <testcase name="silenceAtRestOfferIsNotARefusalAndAsksAgainSooner" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.002"/>
+  <testcase name="calendarPlansFirstRest" classname="com.pitstop.shimpyo.core.PassengerAndPreDriveTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

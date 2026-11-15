@@ -1,0 +1,32 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preLiveDebugBuild UP-TO-DATE
+> Task :app:generateLiveDebugBuildConfig UP-TO-DATE
+> Task :app:checkLiveDebugAarMetadata UP-TO-DATE
+> Task :app:generateLiveDebugResValues UP-TO-DATE
+> Task :app:mapLiveDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateLiveDebugResources UP-TO-DATE
+> Task :app:mergeLiveDebugResources UP-TO-DATE
+> Task :app:packageLiveDebugResources UP-TO-DATE
+> Task :app:parseLiveDebugLocalResources UP-TO-DATE
+> Task :app:createLiveDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksLiveDebug UP-TO-DATE
+> Task :app:processLiveDebugMainManifest UP-TO-DATE
+> Task :app:processLiveDebugManifest UP-TO-DATE
+> Task :app:processLiveDebugManifestForPackage UP-TO-DATE
+> Task :app:processLiveDebugResources UP-TO-DATE
+> Task :app:compileLiveDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileLiveDebug UP-TO-DATE
+> Task :app:compileLiveDebugJavaWithJavac UP-TO-DATE
+> Task :app:bundleLiveDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleLiveDebugClassesToCompileJar UP-TO-DATE
+> Task :app:compileLiveDebugUnitTestKotlin UP-TO-DATE
+> Task :app:preLiveDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileLiveDebugUnitTest UP-TO-DATE
+> Task :app:compileLiveDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processLiveDebugJavaRes UP-TO-DATE
+> Task :app:processLiveDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testLiveDebugUnitTest
+
+BUILD SUCCESSFUL in 5m 24s
+24 actionable tasks: 1 executed, 23 up-to-date
