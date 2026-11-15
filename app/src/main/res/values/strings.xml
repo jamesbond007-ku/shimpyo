@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app_name은 판마다 다르다(app/build.gradle.kts productFlavors: 시연판 "쉼표 시연", 실제 작동판 "쉼표"). -->
+</resources>

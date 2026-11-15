@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Android Automotive(Pleos Connect)용 앱. 발표장 노트북의 일반 AVD에서도 시연할 수 있게 required="false". -->
+    <uses-feature android:name="android.hardware.type.automotive" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+    <!-- Pleos Vehicle SDK (protectionLevel=normal, 설치 시 자동 허용)
+         실제 출시 때는 Pleos App Market과 사전 협의·승인된 권한만 남긴다. -->
+    <uses-permission android:name="pleos.car.permission.CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_CLIMATE" />
+    <uses-permission android:name="pleos.car.permission.CAR_SEATS" />
+    <!-- 동승석 안전벨트 미착용 경고(착좌 센서가 없을 때 동승자 판단 보조) -->
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_SEATS" />
+    <uses-permission android:name="pleos.car.permission.CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_WINDOWS" />
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CONTROL_CAR_LIGHTS" />
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" />
+    <uses-permission android:name="pleos.car.permission.CAR_INFO" />
+    <uses-permission android:name="pleos.car.permission.CAR_MILEAGE" />
+
+    <!-- Pleos NaviHelper: 경유지 추가·삭제, 현재 위치, 길안내 이벤트, 검색 화면 -->
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" />
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+    <uses-permission android:name="pleos.car.permission.NAVI_NOTIFY" />
+    <uses-permission android:name="pleos.car.permission.NAVI_CUSTOM_MAP" />
+
+    <!-- Pleos Gleo AI SDK: TextToSpeech / SpeechToText -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" />
+    <uses-permission android:name="pleos.car.permission.STT_SERVICE" />
+
+    <!-- AAOS 표준 기어(GEAR_SELECTION)·주차 브레이크(PARKING_BRAKE_ON) -->
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 운행 중 포그라운드 서비스(TripService): 내비가 앞으로 나와도 쉼표가 얼지 않고 도착·주차를 알아채게 한다. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Android 11+ 패키지 가시성: Pleos 시스템 서비스 존재 확인, 기본 TTS·음성 인식 조회 -->
+    <queries>
+        <package android:name="ai.pleos.playground.service.navi" />
+        <package android:name="ai.pleos.playground.service.vehicle" />
+        <package android:name="ai.pleos.playground.caas" />
+        <package android:name="ai.pleos.playground.service.caas" />
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".ShimpyoApp"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shimpyo">
+
+        <!-- android.car 구현은 차량 OS에만 있으므로 required=false로 일반 AVD 설치를 허용 -->
+        <uses-library android:name="android.car" android:required="false" />
+
+        <service
+            android:name=".platform.TripService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="In-car drowsiness monitoring during a trip: keeps the 1-second risk check and rest-stop arrival detection running while the navigation app is in front." />
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|density|uiMode|keyboard|keyboardHidden|navigation">
+            <!-- 주행 중 화면 제한(UX Restrictions) 대상: 주행 중에는 음성 위주로만 동작하도록 설계했다.
+                 실제 배포 시 Pleos App Market 심사 기준에 맞춰 확인한다. -->
+            <meta-data android:name="distractionOptimized" android:value="true" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
