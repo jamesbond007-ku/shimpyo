@@ -11,10 +11,11 @@ Team Pit Stop · 현대자동차그룹 차량용 앱 개발 공모전 출품작 
 
 | 항목 | 내용 |
 |---|---|
-| 앱 이름 | 쉼표 (Shimpyo) · 버전 0.2.1 · 두 가지 판: **실제 작동판** `com.pitstop.shimpyo`, **시연판** `com.pitstop.shimpyo.demo`(앱 이름 ‘쉼표 시연’, 같이 설치 가능) |
+| 앱 이름 | 쉼표 (Shimpyo) · 제출 APK 0.2.4 (이 저장소의 소스는 0.2.1 기준이며, 0.2.4는 여기에 음성 인식 개선을 더한 버전) · 두 가지 판: **실제 작동판** `com.pitstop.shimpyo`, **시연판** `com.pitstop.shimpyo.demo`(앱 이름 ‘쉼표 시연’, 같이 설치 가능) |
 | 한 줄 소개 | 수면 기록·주행 시간·대화 반응으로 졸음을 알아채고, 말놀이로 깨우고, 가장 가까운 졸음쉼터로 안내해 시트·조명·공조까지 바꿔 쉬게 한 뒤 다시 출발시키는 음성 중심 안전운전 코파일럿 |
-| APK | 6차 점검 빌드: [`apk/shimpyo-0.2.1-review6-live.apk`](apk/shimpyo-0.2.1-review6-live.apk) · [`apk/shimpyo-0.2.1-review6-demo.apk`](apk/shimpyo-0.2.1-review6-demo.apk). 2026-11-14 소스에서 빌드·서명 검사 완료. 이 환경에서 만든 디버그 키 서명이며, 실차·Pleos 에뮬레이터 실행은 이번에 확인하지 못했다. 기존 설치판과 키가 다르면 덮어쓸 수 없다. |
+| APK | **제출본(실제 작동판 0.2.4, release 빌드): [`PitStop_Shimpyo_release.apk`](https://github.com/jamesbond007-ku/shimpyo/releases/tag/v0.2.4)** — 파일이 GitHub 웹 업로드 용량(25MB)을 넘어 `apk/` 폴더 대신 **GitHub Releases**에 올렸다: https://github.com/jamesbond007-ku/shimpyo/releases/tag/v0.2.4 |
 | 테스트 환경 | Pleos Connect Emulator 2.1.0 (Android API 34, `pleos_car_emulator` x86_64), Windows 11 · Android Studio · JDK 17 |
+| 에뮬레이터·화면 규격 | Pleos Connect Emulator **2.1.0** (System image `Pleos Connect v2.1.0 APIs`, Android API 34, x86_64, RAM 4GB) 기본 가로형 센터 디스플레이에서 개발·시연. 가로 1280dp 이상은 좌우 배치, 내비와 나눈 반 화면·세로 화면은 위아래 배치로 대응 |
 | 사용 SDK | Vehicle 2.3.2 (HVAC·Seat·Window·Light·Safety·Odometer), NaviHelper 3.0.5, Gleo AI TTS·STT 3.3.1, AAOS Car API(기어·주차 브레이크) |
 | 필요한 설정 | 없음(API 키·로그인 불필요, 오프라인 동작). 처음 실행 때 마이크 권한 허용. 음성으로 답하려면 에뮬레이터 Extended Controls → Microphone → *Virtual microphone uses host audio input* 켜기(안 켜도 화면의 ‘시연 도구’ 버튼으로 대답 가능) |
 
@@ -33,7 +34,7 @@ Team Pit Stop · 현대자동차그룹 차량용 앱 개발 공모전 출품작 
 1. Pleos Connect Emulator 2.1.0을 켠다(설치는 아래 [3. 빌드와 실행](#3-빌드와-실행)).
 2. APK 설치:
    ```bash
-   adb install -r <시연판 APK 경로>   # 위 ‘APK’ 줄의 위치 참고(실제 작동판도 같은 방법)
+   adb install -r PitStop_Shimpyo_release.apk   # Releases에서 받은 실제 작동판 APK
    ```
 3. 앱 목록에서 **쉼표**를 연다 → **운행 시작**(실제 작동판은 앱이 켜져 있고 차량 신호가 연결돼 있으면 P단을 풀 때 저절로 시작하고, 20분 넘게 주차하면 저절로 끝난다).
 4. 짧게 보려면 오른쪽 위 **시연 도구** → **시연 배속**(1초 = 1분)을 켜고 [4. 2차 PT 시연 순서](#4-2차-pt-시연-순서-약-5분)를 따라 한다.
